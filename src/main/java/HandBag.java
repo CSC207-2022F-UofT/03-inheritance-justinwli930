@@ -6,7 +6,7 @@
  * You may find the readings in chapter 3. Relationships between Classes
  * helpful while working through this exercise.
  */
-public class HandBag extends Bag{
+public class HandBag extends Bag {
 
     /**
      * Creates a new HandBag with the given color and
@@ -34,5 +34,6 @@ public class HandBag extends Bag{
          *
          * To call a method defined in a parent, you use super.method_name(...)
          */
+        super.increaseCapacity(1);
     }
 }
